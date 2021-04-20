@@ -24,7 +24,7 @@
             <asp:RadioButton ID="RadioButton2" runat="server" Text="打電動" />
             <asp:RadioButton ID="RadioButton3" runat="server" Text="其他" /><br />
             <asp:Label ID="Label4" runat="server" Text="其他連結"></asp:Label><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl ="https://aws.amazon.com/tw" Height="30px" ImageUrl="C:\Users\MIS803\source\repos\109_2Mid\109_2Mid\aws-brands.svg.svg" Width="30px">aws</asp:HyperLink> <br/>
-            <asp:Button ID="Button1" runat="server" Text="送出" Height="30px" Width="80px" />
+            <asp:Button ID="Button1" runat="server" Text="送出" Height="30px" OnClick="Button1_Click" Width="80px" />
            
         </div>
     </form>
