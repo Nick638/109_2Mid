@@ -10,6 +10,10 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <h1>會員註冊</h1>
+            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
         </div>
     </form>
 </body>
